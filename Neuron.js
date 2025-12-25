@@ -1,5 +1,4 @@
 export default class Neuron {
-  type = ["Normal", "Dopamine"][Math.round((Math.random()*2)-1)];
-  bias = Math.random();
+  bias = (Math.random()*2)-1;
   value;
 }
